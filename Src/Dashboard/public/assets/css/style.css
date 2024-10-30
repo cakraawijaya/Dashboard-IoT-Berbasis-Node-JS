@@ -1,0 +1,39 @@
+nav {
+    background-image: linear-gradient(170deg, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6);
+}
+
+.header-website, .footer-website, .fa-slack, .fa-square-github, .fa-square-instagram, .fa-linkedin, hr, .input-group, .btn {
+    color: white;
+}
+
+body {
+    width: 100%;
+    align-items : center;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-image:url('../img/background.jpg') ;
+}  
+
+footer {
+    padding: 100px;
+    height: 80px;
+    background-image: linear-gradient(170deg, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6);
+}
+
+.card {
+    background-image: linear-gradient(170deg, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6);
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.dataResult {
+    height:190px; 
+    font-size:100px;
+    text-align:center;
+}
