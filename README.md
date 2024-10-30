@@ -14,6 +14,8 @@ Node.js-based IoT Dashboard | Kelas IoT | Workshop Assignment
 | --- | --- |
 | Features | Publish and Subscribe |
 | Framework | Bootstrap 5, ExpressJS, Font-Awesome 6 |
+| Development Board | DOIT ESP32 DEVKIT V1 |
+| Scheme | Virtual |
 | Communications Protocol | Message Queuing Telemetry Transport (MQTT) |
 | IoT Platform | EMQX Broker |
 | Tools | Wokwi, MQTTX, Visual Studio Code, NodeJS |
@@ -60,6 +62,37 @@ Node.js-based IoT Dashboard | Kelas IoT | Workshop Assignment
    ```
 
    </td></tr></table>
+
+<br><br>
+
+## Get Started
+1. Download and extract this repository.<br><br>
+
+2. Open the ``` Dashboard ``` directory, then open ``` CMD ``` inside the directory.<br><br>
+
+   • First, if no error occurs then just skip this step, but if otherwise then please copy the following command:
+
+      <table><tr><td width="810">
+
+      ````bash
+      npm install
+      ````
+
+      </td></tr></table><br>
+
+   • Secondly, to run a server with automatic refresh repeatedly can be done with command:
+
+      <table><tr><td width="810">
+
+      ````bash
+      nodemon server.js
+      ````
+
+      </td></tr></table><br>
+
+3. Open your ``` Browser ```, then type -> ``` localhost:3000 ``` or customize the one on your ``` CMD ```.<br><br>
+
+4. Have fun and enjoy [Done].
 
 <br><br>
 
