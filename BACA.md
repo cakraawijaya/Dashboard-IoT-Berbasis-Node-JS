@@ -92,7 +92,11 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
 3. Buka ``` Peramban ``` anda, lalu ketik -> ``` localhost:3000 ``` atau sesuaikan dengan yang ada di ``` CMD ``` anda.<br><br>
 
-4. Bersenang-senang dan nikmatilah [Selesai].
+4. Isilah Topic dan Data terlebih dahulu, misalnya: ``` kelasiot/pot ``` | ``` 4095 ``` -> kemudian klik ``` Publish ```.<br><br>
+   
+5. Port dan Topic Subscribe ini dapat diubah sesuai keinginan pengguna. Pengaturan ini terdapat dalam file bernama ``` server.js ```.<br><br>
+
+6. Bersenang-senang dan nikmatilah [Selesai].
 
 <br><br>
 
@@ -107,6 +111,29 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <td><img src="Documentation/Nodemon Server.js.jpg" alt="server"></td>
 </tr>
 </table>
+
+<br><br>
+
+## Simulasi Dengan MQTTX
+1. Unduh dan buka aplikasi ini di Laptop atau Komputer anda.<br><br>
+
+2. Klik ``` + New Connection ``` -> lalu beri nama koneksi sesuai dengan keinginan anda -> lalu klik ``` Connect ```.<br><br>
+
+3. Buat topic baru dengan nama ``` kelasiot/pot ```.<br><br>
+
+4. Kemudian untuk pengaturan topic bisa anda sesuaikan seperti yang terlihat di bawah ini:
+
+   • Format Payload to Publish by : &nbsp; ``` Plaintext ```.
+
+   • Qos : &nbsp; ``` 0 ```.
+
+   • Beri tanda centang pada ``` Retain ```.<br><br>
+
+5. Publish data.<br><br>
+
+6. Setelah itu, silakan klik ``` + New Subscription ``` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: ``` kelasiot/pot ```.<br><br>
+
+7. Bersenang-senang dan nikmatilah [Selesai].
 
 <br><br>
 
