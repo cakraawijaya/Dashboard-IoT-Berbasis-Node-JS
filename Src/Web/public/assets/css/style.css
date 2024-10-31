@@ -2,8 +2,13 @@ nav {
     background-image: linear-gradient(170deg, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6);
 }
 
-.header-website, .footer-website, .fa-slack, .fa-square-github, .fa-square-instagram, .fa-linkedin, hr, .input-group, .btn {
+.header, .fa-slack, .title, .icon, hr, .input-group, .btn {
     color: white;
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 30px;
 }
 
 body {
@@ -18,8 +23,6 @@ body {
 }  
 
 footer {
-    padding: 100px;
-    height: 80px;
     background-image: linear-gradient(170deg, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6);
 }
 
@@ -35,4 +38,36 @@ footer {
     height:190px; 
     font-size:100px;
     text-align:center;
+}
+
+@media screen and (max-width: 770px) {
+    .dataResult {
+		font-size: 80px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+	}
+}
+
+@media screen and (max-width: 250px) {
+    .dataResult {
+		font-size: 65px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+	}
+}
+
+@media screen and (max-width: 214px) {
+    .dataResult {
+		font-size: 50px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+	}
+}
+
+@media screen and (max-width: 182px) {
+    .dataResult {
+		font-size: 35px;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+	}
 }
