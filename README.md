@@ -160,7 +160,7 @@ If this work is useful to you, then support this work as a form of appreciation 
 <br><br>
 
 ## Disclaimer
-This application is the result of the development of the Kelas IoT practicum. I do not deny that I still use third-party services in this work, including: libraries, frameworks, and so on.
+This application is the result of the development of the Kelas IoT Workshop. I do not deny that I still use third-party services in this work, including: libraries, frameworks, and so on.
 
 <br><br>
 
