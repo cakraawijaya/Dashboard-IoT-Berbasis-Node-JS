@@ -92,7 +92,41 @@ This project has high resource efficiency and performance, including real-time d
 
 3. Open your ``` Browser ```, then type -> ``` localhost:3000 ``` or customize the one on your ``` CMD ```.<br><br>
 
-4. Have fun and enjoy [Done].
+4. Fill in the Topic and Data form first, for example: ``` kelasiot/pot ``` | ``` 4095 ``` -> then click ``Publish``, then the result will be displayed.<br><br>
+
+5. This port and Topic Subscribe can be changed according to the user's preference. These settings are contained in a file called ``server.js``.<br><br>
+
+6. Have fun and enjoy [Done].
+
+<br><br>
+
+## Simulation With MQTTX
+1. Download and open this application on your Laptop or Computer.<br><br>
+
+2. Click ``` + New Connection ``` -> then name the connection as you wish -> then click ``` Connect ```.<br><br>
+
+3. Create a new topic with the name ``` kelasiot/pot ```.<br><br>
+
+4. Then for topic settings you can customize as seen below:
+
+   • Format Payload to Publish by : &nbsp; ``` Plaintext ```.
+
+   • Qos : &nbsp; ``` 0 ```.
+
+   • Put a check mark on ``` Retain ```.<br><br>
+
+5. Publish data.<br><br>
+
+6. After that, please click ``` + New Subscription ``` -> then list the topics you want to subscribe to, for example: ``` kelasiot/# ```.<br><br>
+
+7. Wait for the subscription results to be displayed.<br><br>
+
+8. Have fun and enjoy [Done].
+
+<br><br>
+
+## Simulation With Wokwi
+Coming Soon...
 
 <br><br>
 
@@ -105,6 +139,16 @@ This project has high resource efficiency and performance, including real-time d
 <tr>
 <td><img src="Documentation/Web Dashboard.jpg" alt="dashboard"></td>
 <td><img src="Documentation/Nodemon Server.js.jpg" alt="server"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="420">MQTTX Simulation</th>
+<th width="420">Wokwi Simulation</th>
+</tr>
+<tr>
+<td><img src="Documentation/MQTTX Simulation.jpg" alt="mqttx"></td>
+<td><img src="Documentation/Wokwi Simulation.jpg" alt="wokwi"></td>
 </tr>
 </table>
 
