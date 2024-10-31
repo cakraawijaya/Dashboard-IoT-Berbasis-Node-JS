@@ -103,7 +103,7 @@ This project has high resource efficiency and performance, including real-time d
 ## Simulation With MQTTX
 1. Download and open this application on your Laptop or Computer.<br><br>
 
-2. Click ``` + New Connection ``` -> then name the connection as you wish -> then click ``` Connect ```.<br><br>
+2. Click ``` + New Connection ``` -> then name the connection as you want -> then click ``` Connect ```.<br><br>
 
 3. Create a new topic with the name ``` kelasiot/pot ```.<br><br>
 
@@ -117,7 +117,7 @@ This project has high resource efficiency and performance, including real-time d
 
 5. Publish data.<br><br>
 
-6. After that, please click ``` + New Subscription ``` -> then list the topics you want to subscribe to, for example: ``` kelasiot/# ```.<br><br>
+6. After that, please click ``` + New Subscription ``` -> then list the topics you want to subscribe, for example: ``` kelasiot/# ```.<br><br>
 
 7. Wait for the subscription results to be displayed.<br><br>
 
