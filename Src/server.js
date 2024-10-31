@@ -11,7 +11,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/bt/css', express.static("node_modules/bootstrap/dist/css"));
-app.use('/bt/js', express.static("node_modules/jquery/dist"));
 app.use('/bt/js', express.static("node_modules/bootstrap/dist/js"));
 app.use('/bt/js', express.static("node_modules/@popperjs/core/dist/umd"));
 app.use('/fw/js', express.static("node_modules/font-awesome/js"));
