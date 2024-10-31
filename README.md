@@ -80,7 +80,7 @@ Node.js-based IoT Dashboard | Kelas IoT | Workshop Assignment
 
       </td></tr></table><br>
 
-   • Secondly, to run a server with automatic refresh repeatedly can be done with command:
+   • Secondly, to run the server with repeated refreshes automatically can be done with the command:
 
       <table><tr><td width="810">
 
