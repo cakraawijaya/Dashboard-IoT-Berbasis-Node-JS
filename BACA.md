@@ -100,20 +100,6 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
 <br><br>
 
-## Sorotan
-<table>
-<tr>
-<th width="420">Tampilan Dashboard</th>
-<th width="420">Menjalankan Server</th>
-</tr>
-<tr>
-<td><img src="Documentation/Web Dashboard.jpg" alt="dashboard"></td>
-<td><img src="Documentation/Nodemon Server.js.jpg" alt="server"></td>
-</tr>
-</table>
-
-<br><br>
-
 ## Simulasi Dengan MQTTX
 1. Unduh dan buka aplikasi ini di Laptop atau Komputer anda.<br><br>
 
@@ -131,11 +117,25 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
 5. Publish data.<br><br>
 
-6. Setelah itu, silakan klik ``` + New Subscription ``` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: ``` kelasiot/pot ```.<br><br>
+6. Setelah itu, silakan klik ``` + New Subscription ``` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: ``` kelasiot/# ```.<br><br>
 
 7. Tunggu hingga hasil subscribenya tertampil.<br><br>
 
 8. Bersenang-senang dan nikmatilah [Selesai].
+
+<br><br>
+
+## Sorotan
+<table>
+<tr>
+<th width="420">Tampilan Dashboard</th>
+<th width="420">Menjalankan Server</th>
+</tr>
+<tr>
+<td><img src="Documentation/Web Dashboard.jpg" alt="dashboard"></td>
+<td><img src="Documentation/Nodemon Server.js.jpg" alt="server"></td>
+</tr>
+</table>
 
 <br><br>
 
