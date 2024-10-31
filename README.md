@@ -68,7 +68,7 @@ This project has high resource efficiency and performance, including real-time d
 ## Get Started
 1. Download and extract this repository.<br><br>
 
-2. Open the ``` Dashboard ``` directory, then open ``` CMD ``` inside the directory.<br><br>
+2. Open the ``` Web ``` directory, then open ``` CMD ``` inside the directory.<br><br>
 
    • First, if no error occurs then just skip this step, but if otherwise then please copy the following command:
 
