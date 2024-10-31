@@ -92,7 +92,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
 3. Buka ``` Peramban ``` anda, lalu ketik -> ``` localhost:3000 ``` atau sesuaikan dengan yang ada di ``` CMD ``` anda.<br><br>
 
-4. Isilah Topic dan Data terlebih dahulu, misalnya: ``` kelasiot/pot ``` | ``` 4095 ``` -> kemudian klik ``` Publish ```.<br><br>
+4. Isi form Topic dan Data terlebih dahulu, misalnya: ``` kelasiot/pot ``` | ``` 4095 ``` -> kemudian klik ``` Publish ```, maka hasilnya akan tertampil.<br><br>
    
 5. Port dan Topic Subscribe ini dapat diubah sesuai keinginan pengguna. Pengaturan ini terdapat dalam file bernama ``` server.js ```.<br><br>
 
@@ -133,7 +133,9 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
 6. Setelah itu, silakan klik ``` + New Subscription ``` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: ``` kelasiot/pot ```.<br><br>
 
-7. Bersenang-senang dan nikmatilah [Selesai].
+7. Tunggu hingga hasil subscribenya tertampil.<br><br>
+
+8. Bersenang-senang dan nikmatilah [Selesai].
 
 <br><br>
 
