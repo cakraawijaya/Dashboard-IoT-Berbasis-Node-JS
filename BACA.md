@@ -125,6 +125,11 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
 <br><br>
 
+## Simulasi Dengan Wokwi
+Segera hadir...
+
+<br><br>
+
 ## Sorotan
 <table>
 <tr>
@@ -134,6 +139,16 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <tr>
 <td><img src="Documentation/Web Dashboard.jpg" alt="dashboard"></td>
 <td><img src="Documentation/Nodemon Server.js.jpg" alt="server"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="420">Simulasi MQTTX</th>
+<th width="420">Simulasi Wokwi</th>
+</tr>
+<tr>
+<td><img src="Documentation/MQTTX Simulation.jpg" alt="mqttx"></td>
+<td><img src="Documentation/Wokwi Simulation.jpg" alt="wokwi"></td>
 </tr>
 </table>
 
