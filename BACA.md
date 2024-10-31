@@ -126,7 +126,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <br><br>
 
 ## Simulasi Dengan Wokwi
-Segera hadir...
+Tautan untuk mensimulasikan : <strong><a href="https://wokwi.com/projects/413253569138415617" target="_blank">Klik Disini</a></strong>
 
 <br><br>
 
