@@ -68,7 +68,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 ## Memulai
 1. Unduh dan ekstrak repositori ini.<br><br>
 
-2. Buka direktori ``` Dashboard ```, lalu buka ``` CMD ``` di dalam direktori tersebut.<br><br>
+2. Buka direktori ``` Web ```, lalu buka ``` CMD ``` di dalam direktori tersebut.<br><br>
 
    • Pertama, jika tidak ada kesalahan yang terjadi maka lewati saja langkah ini, tetapi jika sebaliknya, silakan salin perintah berikut:
 
