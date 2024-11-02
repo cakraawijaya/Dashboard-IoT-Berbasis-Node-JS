@@ -14,6 +14,7 @@ This project has high resource efficiency and performance, including real-time d
 | --- | --- |
 | Features | Publish and Subscribe |
 | Framework | Bootstrap 5, ExpressJS, Font-Awesome 6 |
+| Libraries | MQTTjs |
 | Development Board | DOIT ESP32 DEVKIT V1 |
 | Scheme | Virtual |
 | Communications Protocol | Message Queuing Telemetry Transport (MQTT) |

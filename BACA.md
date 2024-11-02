@@ -14,6 +14,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 | --- | --- |
 | Fitur | Publish dan Subscribe |
 | Kerangka Kerja | Bootstrap 5, ExpressJS, Font-Awesome 6 |
+| Pustaka | MQTTjs |
 | Papan Pengembangan | DOIT ESP32 DEVKIT V1 |
 | Skema | Virtual |
 | Protokol komunikasi | Message Queuing Telemetry Transport (MQTT) |
