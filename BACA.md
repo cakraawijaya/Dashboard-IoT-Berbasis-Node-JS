@@ -13,13 +13,13 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 | Bagian | Deskripsi |
 | --- | --- |
 | Fitur | • Publish<br>• Subscribe |
-| Kerangka Kerja | • Bootstrap 5<br>• ExpressJS<br>• Font-Awesome 6 |
-| Pustaka | MQTTjs |
+| Kerangka Kerja | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6 |
+| Pustaka | MQTT.js |
 | Papan Pengembangan | DOIT ESP32 DEVKIT V1 |
 | Skema | Virtual |
 | Protokol komunikasi | Message Queuing Telemetry Transport (MQTT) |
 | Platform IoT | EMQX Broker |
-| Peralatan | • Wokwi<br>• MQTTX<br>• Visual Studio Code<br>• NodeJS |
+| Peralatan | • Wokwi<br>• MQTTX<br>• Visual Studio Code<br>• Node.js |
 
 <br><br>
 

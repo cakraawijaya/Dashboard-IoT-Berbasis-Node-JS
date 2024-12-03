@@ -13,13 +13,13 @@ This project has high resource efficiency and performance, including real-time d
 | Part | Description |
 | --- | --- |
 | Features | • Publish<br>• Subscribe |
-| Framework | • Bootstrap 5<br>• ExpressJS<br>• Font-Awesome 6 |
-| Libraries | MQTTjs |
+| Framework | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6 |
+| Libraries | MQTT.js |
 | Development Board | DOIT ESP32 DEVKIT V1 |
 | Scheme | Virtual |
 | Communications Protocol | Message Queuing Telemetry Transport (MQTT) |
 | IoT Platform | EMQX Broker |
-| Tools | • Wokwi<br>• MQTTX<br>• Visual Studio Code<br>• NodeJS |
+| Tools | • Wokwi<br>• MQTTX<br>• Visual Studio Code<br>• Node.js |
 
 <br><br>
 
