@@ -38,7 +38,7 @@ app.post('/publish', express.json(), (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server berjalan di https://localhost:${port}`);
+  console.log(`Server berjalan di http://localhost:${port}`);
 });
 
 client.on('connect', () => {
