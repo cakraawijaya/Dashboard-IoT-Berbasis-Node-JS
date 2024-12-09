@@ -5,25 +5,28 @@
 ![Type](https://img.shields.io/badge/Type-Workshop%20Assignment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Dashboard-IoT-Berbasis-Node-JS
+
 This project has high resource efficiency and performance, including real-time data processing, as well as good cybersecurity.
 
 <br>
 
 ## Project Requirements
-| Part | Description |
-| --- | --- |
-| Features | • Publish<br>• Subscribe |
-| Framework | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6 |
-| Libraries | MQTT.js |
-| Development Board | DOIT ESP32 DEVKIT V1 |
-| Scheme | Virtual |
-| Communications Protocol | Message Queuing Telemetry Transport (MQTT) |
-| IoT Platform | EMQX Broker |
-| Tools | • Wokwi<br>• MQTTX<br>• Visual Studio Code<br>• Node.js |
+
+| Part                    | Description                                                              |
+| ----------------------- | ------------------------------------------------------------------------ |
+| Features                | • Publish<br>• Subscribe                                                 |
+| Framework               | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6                        |
+| Libraries               | MQTT.js                                                                  |
+| Development Board       | DOIT ESP32 DEVKIT V1                                                     |
+| Scheme                  | Virtual                                                                  |
+| Communications Protocol | • WebSocket Secure (WSS)<br>• Message Queuing Telemetry Transport (MQTT) |
+| IoT Platform            | EMQX Broker                                                              |
+| Tools                   | • Wokwi<br>• MQTTX<br>• Visual Studio Code<br>• Node.js                  |
 
 <br><br>
 
 ## Download & Install
+
 1. Visual Studio Code
 
    <table><tr><td width="810">
@@ -67,17 +70,18 @@ This project has high resource efficiency and performance, including real-time d
 <br><br>
 
 ## Get Started
+
 1. Download and extract this repository.<br><br>
 
-2. Open the ``` Web ``` directory, then open ``` CMD ``` inside the directory.<br><br>
+2. Open the `Web` directory, then open `CMD` inside the directory.<br><br>
 
    • First, if no error occurs then just skip this step, but if otherwise then please copy the following command:
 
       <table><tr><td width="810">
 
-      ````bash
-      npm install
-      ````
+   ```bash
+   npm install
+   ```
 
       </td></tr></table><br>
 
@@ -85,40 +89,41 @@ This project has high resource efficiency and performance, including real-time d
 
       <table><tr><td width="810">
 
-      ````bash
-      nodemon server.js
-      ````
+   ```bash
+   nodemon server.js
+   ```
 
       </td></tr></table><br>
 
-3. Open your ``` Browser ```, then type -> ``` localhost:3000 ``` or customize the one on your ``` CMD ```.<br><br>
+3. Open your `Browser`, then type -> `localhost:3000` or customize the one on your `CMD`.<br><br>
 
-4. Fill in the Topic and Data form first, for example: ``` kelasiot/pot ``` | ``` 4095 ``` -> then click ``Publish``, then the result will be displayed.<br><br>
+4. Fill in the Topic and Data form first, for example: `kelasiot/pot` | `4095` -> then click `Publish`, then the result will be displayed.<br><br>
 
-5. This port and Topic Subscribe can be changed according to the user's preference. These settings are contained in a file called ``server.js``.<br><br>
+5. This port and Topic Subscribe can be changed according to the user's preference. These settings are contained in a file called `server.js`.<br><br>
 
 6. Have fun and enjoy [Done].
 
 <br><br>
 
 ## Simulation With MQTTX
+
 1. Download and open this application on your Laptop or Computer.<br><br>
 
-2. Click ``` + New Connection ``` -> then name the connection as you want -> then click ``` Connect ```.<br><br>
+2. Click `+ New Connection` -> then name the connection as you want -> then click `Connect`.<br><br>
 
-3. Create a new topic with the name ``` kelasiot/pot ```.<br><br>
+3. Create a new topic with the name `kelasiot/pot`.<br><br>
 
 4. Then for topic settings you can customize as seen below:
 
-   • Format Payload to Publish by : &nbsp; ``` Plaintext ```.
+   • Format Payload to Publish by : &nbsp; `Plaintext`.
 
-   • Qos : &nbsp; ``` 0 ```.
+   • Qos : &nbsp; `0`.
 
-   • Put a check mark on ``` Retain ```.<br><br>
+   • Put a check mark on `Retain`.<br><br>
 
 5. Publish data.<br><br>
 
-6. After that, please click ``` + New Subscription ``` -> then list the topics you want to subscribe, for example: ``` kelasiot/# ```.<br><br>
+6. After that, please click `+ New Subscription` -> then list the topics you want to subscribe, for example: `kelasiot/#`.<br><br>
 
 7. Wait for the subscription results to be displayed.<br><br>
 
@@ -127,11 +132,13 @@ This project has high resource efficiency and performance, including real-time d
 <br><br>
 
 ## Simulation With Wokwi
+
 Link to simulate : <strong><a href="https://wokwi.com/projects/413253569138415617" target="_blank">Click Here</a></strong>
 
 <br><br>
 
 ## Highlights
+
 <table>
 <tr>
 <th width="420">Dashboard View</th>
@@ -156,16 +163,19 @@ Link to simulate : <strong><a href="https://wokwi.com/projects/41325356913841561
 <br><br>
 
 ## Appreciation
-If this work is useful to you, then support this work as a form of appreciation to the author by clicking the ``` ⭐Star ``` button at the top of the repository.
+
+If this work is useful to you, then support this work as a form of appreciation to the author by clicking the `⭐Star` button at the top of the repository.
 
 <br><br>
 
 ## Disclaimer
+
 This application is the result of the development of the Kelas IoT Workshop. I do not deny that I still use third-party services in this work, including: libraries, frameworks, and so on.
 
 <br><br>
 
 ## LICENSE
+
 MIT License - Copyright © 2024 - Devan C. M. Wijaya, S.Kom
 
 Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:

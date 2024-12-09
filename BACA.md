@@ -5,25 +5,28 @@
 ![Type](https://img.shields.io/badge/Type-Workshop%20Assignment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Dashboard-IoT-Berbasis-Node-JS
+
 Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemrosesan data secara real-time, serta keamanan siber yang baik.
 
 <br>
 
 ## Kebutuhan Proyek
-| Bagian | Deskripsi |
-| --- | --- |
-| Fitur | • Publish<br>• Subscribe |
-| Kerangka Kerja | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6 |
-| Pustaka | MQTT.js |
-| Papan Pengembangan | DOIT ESP32 DEVKIT V1 |
-| Skema | Virtual |
-| Protokol komunikasi | Message Queuing Telemetry Transport (MQTT) |
-| Platform IoT | EMQX Broker |
-| Peralatan | • Wokwi<br>• MQTTX<br>• Visual Studio Code<br>• Node.js |
+
+| Bagian              | Deskripsi                                                                |
+| ------------------- | ------------------------------------------------------------------------ |
+| Fitur               | • Publish<br>• Subscribe                                                 |
+| Kerangka Kerja      | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6                        |
+| Pustaka             | MQTT.js                                                                  |
+| Papan Pengembangan  | DOIT ESP32 DEVKIT V1                                                     |
+| Skema               | Virtual                                                                  |
+| Protokol komunikasi | • WebSocket Secure (WSS)<br>• Message Queuing Telemetry Transport (MQTT) |
+| Platform IoT        | EMQX Broker                                                              |
+| Peralatan           | • Wokwi<br>• MQTTX<br>• Visual Studio Code<br>• Node.js                  |
 
 <br><br>
 
 ## Unduh & Instal
+
 1. Visual Studio Code
 
    <table><tr><td width="810">
@@ -67,17 +70,18 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <br><br>
 
 ## Memulai
+
 1. Unduh dan ekstrak repositori ini.<br><br>
 
-2. Buka direktori ``` Web ```, lalu buka ``` CMD ``` di dalam direktori tersebut.<br><br>
+2. Buka direktori `Web`, lalu buka `CMD` di dalam direktori tersebut.<br><br>
 
    • Pertama, jika tidak ada kesalahan yang terjadi maka lewati saja langkah ini, tetapi jika sebaliknya, silakan salin perintah berikut:
 
       <table><tr><td width="810">
 
-      ````bash
-      npm install
-      ````
+   ```bash
+   npm install
+   ```
 
       </td></tr></table><br>
 
@@ -85,40 +89,40 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
       <table><tr><td width="810">
 
-      ````bash
-      nodemon server.js
-      ````
+   ```bash
+   nodemon server.js
+   ```
 
       </td></tr></table><br>
 
-3. Buka ``` Peramban ``` anda, lalu ketik -> ``` localhost:3000 ``` atau sesuaikan dengan yang ada di ``` CMD ``` anda.<br><br>
+3. Buka `Peramban` anda, lalu ketik -> `localhost:3000` atau sesuaikan dengan yang ada di `CMD` anda.<br><br>
 
-4. Isi form Topic dan Data terlebih dahulu, misalnya: ``` kelasiot/pot ``` | ``` 4095 ``` -> kemudian klik ``` Publish ```, maka hasilnya akan tertampil.<br><br>
-   
-5. Port dan Topic Subscribe ini dapat diubah sesuai keinginan pengguna. Pengaturan ini terdapat dalam file bernama ``` server.js ```.<br><br>
+4. Isi form Topic dan Data terlebih dahulu, misalnya: `kelasiot/pot` | `4095` -> kemudian klik `Publish`, maka hasilnya akan tertampil.<br><br>
+5. Port dan Topic Subscribe ini dapat diubah sesuai keinginan pengguna. Pengaturan ini terdapat dalam file bernama `server.js`.<br><br>
 
 6. Bersenang-senang dan nikmatilah [Selesai].
 
 <br><br>
 
 ## Simulasi Dengan MQTTX
+
 1. Unduh dan buka aplikasi ini di Laptop atau Komputer anda.<br><br>
 
-2. Klik ``` + New Connection ``` -> lalu beri nama koneksi sesuai dengan keinginan anda -> lalu klik ``` Connect ```.<br><br>
+2. Klik `+ New Connection` -> lalu beri nama koneksi sesuai dengan keinginan anda -> lalu klik `Connect`.<br><br>
 
-3. Buat topic baru dengan nama ``` kelasiot/pot ```.<br><br>
+3. Buat topic baru dengan nama `kelasiot/pot`.<br><br>
 
 4. Kemudian untuk pengaturan topic bisa anda sesuaikan seperti yang terlihat di bawah ini:
 
-   • Format Payload to Publish by : &nbsp; ``` Plaintext ```.
+   • Format Payload to Publish by : &nbsp; `Plaintext`.
 
-   • Qos : &nbsp; ``` 0 ```.
+   • Qos : &nbsp; `0`.
 
-   • Beri tanda centang pada ``` Retain ```.<br><br>
+   • Beri tanda centang pada `Retain`.<br><br>
 
 5. Publish data.<br><br>
 
-6. Setelah itu, silakan klik ``` + New Subscription ``` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: ``` kelasiot/# ```.<br><br>
+6. Setelah itu, silakan klik `+ New Subscription` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: `kelasiot/#`.<br><br>
 
 7. Tunggu hingga hasil subscribenya tertampil.<br><br>
 
@@ -127,11 +131,13 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <br><br>
 
 ## Simulasi Dengan Wokwi
+
 Tautan untuk mensimulasikan : <strong><a href="https://wokwi.com/projects/413253569138415617" target="_blank">Klik Disini</a></strong>
 
 <br><br>
 
 ## Sorotan
+
 <table>
 <tr>
 <th width="420">Tampilan Dashboard</th>
@@ -156,16 +162,19 @@ Tautan untuk mensimulasikan : <strong><a href="https://wokwi.com/projects/413253
 <br><br>
 
 ## Apresiasi
-Jika karya ini bermanfaat bagi anda, maka dukunglah karya ini sebagai bentuk apresiasi kepada penulis dengan mengklik tombol ``` ⭐Bintang ``` di bagian atas repositori.
+
+Jika karya ini bermanfaat bagi anda, maka dukunglah karya ini sebagai bentuk apresiasi kepada penulis dengan mengklik tombol `⭐Bintang` di bagian atas repositori.
 
 <br><br>
 
 ## Penafian
+
 Aplikasi ini merupakan hasil pengembangan dari Workshop Kelas IoT. Saya tidak memungkiri bahwa saya masih menggunakan layanan pihak ketiga dalam pengerjaan ini, antara lain: library, framework, dan lain sebagainya.
 
 <br><br>
 
-## LISENSI 
+## LISENSI
+
 LISENSI MIT - Hak Cipta © 2024 - Devan C. M. Wijaya, S.Kom
 
 Dengan ini diberikan izin tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk menggunakannya tanpa batasan, termasuk namun tidak terbatas pada hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, mempublikasikan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak ini, dan mengizinkan orang yang menerima Perangkat Lunak ini untuk dilengkapi dengan persyaratan berikut:
