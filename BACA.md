@@ -106,13 +106,17 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
 ## Simulasi Dengan MQTTX
 
-1. Unduh dan buka aplikasi ini di Laptop atau Komputer anda.<br><br>
+`MQTTX Web` menyediakan 2 protokol komunikasi, yaitu `WebSocket (WS)` dan `WebSocket Secure (WSS)`. Selain itu juga ada `MQTTX Desktop`, yang secara pilihan lebih lengkap.<br><br>
 
-2. Klik `+ New Connection` -> lalu beri nama koneksi sesuai dengan keinginan anda -> lalu klik `Connect`.<br><br>
+1. Jika anda menggunakan `MQTTX Web`, pastikan untuk memilih protokol `WSS` agar aman.<br><br>
 
-3. Buat topic baru dengan nama `kelasiot/pot`.<br><br>
+2. Jika anda menggunakan `MQTTX Desktop`, jangan lupa untuk mengunduh aplikasinya. Lalu, jika sudah diunduh, bukalah aplikasi tersebut di laptop atau komputer anda.<br><br>
 
-4. Kemudian untuk pengaturan topic bisa anda sesuaikan seperti yang terlihat di bawah ini:
+3. Klik `+ New Connection` -> lalu beri nama koneksi sesuai dengan keinginan anda -> lalu klik `Connect`.<br><br>
+
+4. Buat topic baru dengan nama `kelasiot/pot`.<br><br>
+
+5. Kemudian untuk pengaturan topic bisa anda sesuaikan seperti yang terlihat di bawah ini:
 
    • Format Payload to Publish by : &nbsp; `Plaintext`.
 
@@ -120,13 +124,13 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
    • Beri tanda centang pada `Retain`.<br><br>
 
-5. Publish data.<br><br>
+6. Publish data.<br><br>
 
-6. Setelah itu, silakan klik `+ New Subscription` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: `kelasiot/#`.<br><br>
+7. Setelah itu, silakan klik `+ New Subscription` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: `kelasiot/#`.<br><br>
 
-7. Tunggu hingga hasil subscribenya tertampil.<br><br>
+8. Tunggu hingga hasil subscribenya tertampil.<br><br>
 
-8. Bersenang-senang dan nikmatilah [Selesai].
+9. Bersenang-senang dan nikmatilah [Selesai].
 
 <br><br>
 

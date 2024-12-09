@@ -107,13 +107,17 @@ This project has high resource efficiency and performance, including real-time d
 
 ## Simulation With MQTTX
 
-1. Download and open this application on your Laptop or Computer.<br><br>
+`MQTTX Web` provides 2 communication protocols, namely `WebSocket (WS)` and `WebSocket Secure (WSS)`. There is also `MQTTX Desktop`, which is a more complete option.<br><br>
 
-2. Click `+ New Connection` -> then name the connection as you want -> then click `Connect`.<br><br>
+1. If you are using `MQTTX Web`, make sure to select the `WSS` protocol to be secure.<br><br>
 
-3. Create a new topic with the name `kelasiot/pot`.<br><br>
+2. If you are using `MQTTX Desktop`, don't forget to download the app. Then, once downloaded, open that application on your laptop or computer.<br><br>
 
-4. Then for topic settings you can customize as seen below:
+3. Click `+ New Connection` -> then name the connection as you want -> then click `Connect`.<br><br>
+
+4. Create a new topic with the name `kelasiot/pot`.<br><br>
+
+5. Then for topic settings you can customize as seen below:
 
    • Format Payload to Publish by : &nbsp; `Plaintext`.
 
@@ -121,13 +125,13 @@ This project has high resource efficiency and performance, including real-time d
 
    • Put a check mark on `Retain`.<br><br>
 
-5. Publish data.<br><br>
+6. Publish data.<br><br>
 
-6. After that, please click `+ New Subscription` -> then list the topics you want to subscribe, for example: `kelasiot/#`.<br><br>
+7. After that, please click `+ New Subscription` -> then list the topics you want to subscribe, for example: `kelasiot/#`.<br><br>
 
-7. Wait for the subscription results to be displayed.<br><br>
+8. Wait for the subscription results to be displayed.<br><br>
 
-8. Have fun and enjoy [Done].
+9. Have fun and enjoy [Done].
 
 <br><br>
 
