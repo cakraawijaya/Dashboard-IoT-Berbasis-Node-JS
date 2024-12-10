@@ -12,16 +12,18 @@ This project has high resource efficiency and performance, including real-time d
 
 ## Project Requirements
 
-| Part                    | Description                                                              |
-| ----------------------- | ------------------------------------------------------------------------ |
-| Features                | • Publish<br>• Subscribe                                                 |
-| Framework               | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6                        |
-| Libraries               | MQTT.js                                                                  |
-| Development Board       | DOIT ESP32 DEVKIT V1                                                     |
-| Scheme                  | Virtual                                                                  |
+| Part | Description |
+| --- | --- |
+| Scheme | Virtual |
+| Features | • Publish<br>• Subscribe |
+| Development Board | DOIT ESP32 DEVKIT V1 |
+| Code Editor | Visual Studio Code |
+| Application Support | • Wokwi<br>• MQTTX<br>• Node.js |
+| IoT Platform | EMQX Broker |
 | Communications Protocol | • WebSocket Secure (WSS)<br>• Message Queuing Telemetry Transport (MQTT) |
-| IoT Platform            | EMQX Broker                                                              |
-| Tools                   | • Wokwi<br>• MQTTX<br>• Visual Studio Code<br>• Node.js                  |
+| IoT Architecture | 3 Layer |
+| Framework | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6 |
+| Libraries | MQTT.js |
 
 <br><br>
 
