@@ -20,8 +20,8 @@ This project has high resource efficiency and performance, including real-time d
 | Code Editor | Visual Studio Code |
 | Application Support | • Wokwi<br>• MQTTX<br>• Node.js |
 | IoT Platform | EMQX Broker |
-| Communications Protocol | • WebSocket Secure (WSS)<br>• Message Queuing Telemetry Transport (MQTT) |
-| IoT Architecture | 3 Layer |
+| Communications Protocol | • Hypertext Transfer Protocol (HTTP)<br>• Message Queuing Telemetry Transport (MQTT) |
+| IoT Architecture | 4 Layer |
 | Framework | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6 |
 | Libraries | MQTT.js |
 
@@ -68,6 +68,18 @@ This project has high resource efficiency and performance, including real-time d
    ```
 
    </td></tr></table>
+
+<br><br>
+
+## Project Designs
+<table>
+<tr>
+<th width="840">Infrastructure</th>
+</tr>
+<tr>
+<td><img src="Assets/Documentation/Diagram/Infrastructure.jpg" alt="infrastructure"></td>
+</tr>
+</table>
 
 <br><br>
 
@@ -151,8 +163,8 @@ Link to simulate : <strong><a href="https://wokwi.com/projects/41325356913841561
 <th width="420">Running the Server</th>
 </tr>
 <tr>
-<td><img src="Documentation/Web Dashboard.jpg" alt="dashboard"></td>
-<td><img src="Documentation/Nodemon Server.js.jpg" alt="server"></td>
+<td><img src="Documentation/Experiment/Web Dashboard.jpg" alt="dashboard"></td>
+<td><img src="Documentation/Experiment/Nodemon Server.js.jpg" alt="server"></td>
 </tr>
 </table>
 <table>
@@ -161,8 +173,8 @@ Link to simulate : <strong><a href="https://wokwi.com/projects/41325356913841561
 <th width="420">Wokwi Simulation</th>
 </tr>
 <tr>
-<td><img src="Documentation/MQTTX Simulation.jpg" alt="mqttx"></td>
-<td><img src="Documentation/Wokwi Simulation.jpg" alt="wokwi"></td>
+<td><img src="Documentation/Experiment/MQTTX Simulation.jpg" alt="mqttx"></td>
+<td><img src="Documentation/Experiment/Wokwi Simulation.jpg" alt="wokwi"></td>
 </tr>
 </table>
 
