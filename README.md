@@ -77,7 +77,7 @@ This project has high resource efficiency and performance, including real-time d
 <th width="840">Infrastructure</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/Diagram/Infrastructure.jpg" alt="infrastructure"></td>
+<td><img src="Documentation/Diagram/Infrastructure.jpg" alt="infrastructure"></td>
 </tr>
 </table>
 
