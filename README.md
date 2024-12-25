@@ -21,7 +21,7 @@ This project has high resource efficiency and performance, including real-time d
 | Application Support | • Wokwi<br>• MQTTX<br>• Node.js |
 | IoT Platform | EMQX Broker |
 | Communications Protocol | • Hypertext Transfer Protocol (HTTP)<br>• Message Queuing Telemetry Transport (MQTT) |
-| IoT Architecture | 4 Layer |
+| IoT Architecture | 3 Layer |
 | Framework | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6 |
 | Libraries | MQTT.js |
 

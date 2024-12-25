@@ -21,7 +21,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 | Dukungan Aplikasi | • Wokwi<br>• MQTTX<br>• Node.js |
 | Platform IoT | EMQX Broker |
 | Protokol komunikasi | • Hypertext Transfer Protocol (HTTP)<br>• Message Queuing Telemetry Transport (MQTT) |
-| Arsitektur IoT | 4 Lapisan |
+| Arsitektur IoT | 3 Lapisan |
 | Kerangka Kerja | • Bootstrap 5<br>• Express.js<br>• Font-Awesome 6 |
 | Pustaka | MQTT.js |
 
