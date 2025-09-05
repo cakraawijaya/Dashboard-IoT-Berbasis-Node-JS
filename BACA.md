@@ -4,8 +4,7 @@
 ![Project](https://img.shields.io/badge/Project-Website-light.svg?style=flat&logo=googlechrome&logoColor=white&color=%23F7DF1E)
 ![Type](https://img.shields.io/badge/Type-Workshop%20Assignment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
-# Dashboard-IoT-Berbasis-Node-JS
-
+# Dashboard IoT Berbasis Node.js
 Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemrosesan data secara real-time, serta keamanan siber yang baik.
 
 <br>
