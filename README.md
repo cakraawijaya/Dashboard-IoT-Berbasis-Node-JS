@@ -10,7 +10,6 @@ This project has high resource efficiency and performance, including real-time d
 <br>
 
 ## Project Requirements
-
 | Part | Description |
 | --- | --- |
 | Scheme | Virtual |
@@ -27,9 +26,7 @@ This project has high resource efficiency and performance, including real-time d
 <br><br>
 
 ## Download & Install
-
 1. Visual Studio Code
-
    <table><tr><td width="810">
 
    ```
@@ -39,7 +36,6 @@ This project has high resource efficiency and performance, including real-time d
    </td></tr></table><br>
 
 2. NodeJS
-
    <table><tr><td width="810">
 
    ```
@@ -49,21 +45,10 @@ This project has high resource efficiency and performance, including real-time d
    </td></tr></table><br>
 
 3. MQTTX
-
    <table><tr><td width="810">
 
    ```
    https://mqttx.app/downloads
-   ```
-
-   </td></tr></table><br>
-
-4. Font-Awesome
-
-   <table><tr><td width="810">
-
-   ```
-   https://fontawesome.com/download
    ```
 
    </td></tr></table>
@@ -83,79 +68,134 @@ This project has high resource efficiency and performance, including real-time d
 <br><br>
 
 ## Get Started
-
-1. Download and extract this repository.<br><br>
-
-2. Open the `Web` directory, then open `CMD` inside the directory.<br><br>
-
-   • First, if no error occurs then just skip this step, but if otherwise then please copy the following command:
-
-      <table><tr><td width="810">
-
+1. Open ``` Terminal ```, Then create a ``` package.json ``` file in the ``` dashboard-iot ``` directory using the following steps:<br>
+   <table><tr><td width="810">
+   
    ```bash
-   npm install
+   npm init -y
    ```
-
-      </td></tr></table><br>
-
-   • Secondly, to run the server with repeated refreshes automatically can be done with the command:
-
-      <table><tr><td width="810">
-
+   
+   </td></tr></table>
+   <br>
+2. Download and extract this repository.<br><br>
+3. Copy the directories: ``` public ``` and ``` views ```.<br><br>
+4. Copy the file: ``` server.js ```.<br><br>
+5. Paste and Replace into the ``` dashboard-iot ``` directory.<br><br>
+6. Open ``` Terminal ``` inside that directory.<br><br>
+7. Install ``` express ``` to make a backend server:<br>
+   <table><tr><td width="810">
+      
    ```bash
-   nodemon server.js
+   npm install express
    ```
-
-      </td></tr></table><br>
-
-3. Open your `Browser`, then type -> `localhost:3000` or customize the one on your `CMD`.<br><br>
-
-4. Fill in the Topic and Data form first, for example: `kelasiot/pot` | `4095` -> then click `Publish`, then the result will be displayed.<br><br>
-
-5. This port and Topic Subscribe can be changed according to the user's preference. These settings are contained in a file called `server.js`.<br><br>
-
-6. Have fun and enjoy [Done].
+   
+   </td></tr></table>
+   <br>
+8. Install ``` mqtt ``` for IoT data communication:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install mqtt
+    ```
+   
+    </td></tr></table>
+    <br>
+9. Install ``` mqttjs ``` to connect the web and Node.js to the MQTT broker in real time:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install mqttjs
+    ```
+   
+    </td></tr></table>
+    <br>
+10. Install ``` ejs ``` to create web pages with dynamic content:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install ejs
+    ```
+   
+    </td></tr></table>
+    <br>
+11. Install ``` bootstrap ``` to manage the appearance (layout):<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install bootstrap
+    ```
+   
+    </td></tr></table>
+    <br>
+12. Install ``` fontawesome ``` for icons:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install @fortawesome/fontawesome-free
+    ```
+   
+    </td></tr></table>
+    <br>
+13. Open ``` package.json ```, then change the ``` scripts ``` section to look like this:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    ```
+   
+    </td></tr></table>
+    <br>
+14. Install ``` nodemon ``` to restart the server automatically:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install --save-dev nodemon
+    ```
+   
+    </td></tr></table>
+    <br>
+15. To run the web, type the command:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm run dev
+    ```
+   
+    </td></tr></table>
+    <br>
+16. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
+17. Fill in the Topic and Data form first, for example: `kelasiot/pot` | `4095` -> then click `Publish`, then the result will be displayed.<br><br>
+18. This port and Topic Subscribe can be changed according to the user's preference. These settings are contained in a file called `server.js`.<br><br>
+19. Please access the features and enjoy [Done].
 
 <br><br>
 
 ## Simulation With MQTTX
-
 `MQTTX Web` provides 2 communication protocols, namely `WebSocket (WS)` and `WebSocket Secure (WSS)`. There is also `MQTTX Desktop`, which is a more complete option.<br><br>
-
 1. If you are using `MQTTX Web`, make sure to select the `WSS` protocol to be secure.<br><br>
-
 2. If you are using `MQTTX Desktop`, don't forget to download the app. Then, once downloaded, open that application on your laptop or computer.<br><br>
-
 3. Click `+ New Connection` -> then name the connection as you want -> then click `Connect`.<br><br>
-
 4. Create a new topic with the name `kelasiot/pot`.<br><br>
-
 5. Then for topic settings you can customize as seen below:
-
    • Format Payload to Publish by : &nbsp; `Plaintext`.
-
    • Qos : &nbsp; `0`.
-
    • Put a check mark on `Retain`.<br><br>
-
 6. Publish data.<br><br>
-
 7. After that, please click `+ New Subscription` -> then list the topics you want to subscribe, for example: `kelasiot/#`.<br><br>
-
 8. Wait for the subscription results to be displayed.<br><br>
-
 9. Have fun and enjoy [Done].
 
 <br><br>
 
 ## Simulation With Wokwi
-
 Link to simulate : <strong><a href="https://wokwi.com/projects/413253569138415617" target="_blank">Click Here</a></strong>
 
 <br><br>
 
 ## Highlights
-
 <table>
 <tr>
 <th width="420">Dashboard View</th>
@@ -180,19 +220,16 @@ Link to simulate : <strong><a href="https://wokwi.com/projects/41325356913841561
 <br><br>
 
 ## Appreciation
-
 If this work is useful to you, then support this work as a form of appreciation to the author by clicking the `⭐Star` button at the top of the repository.
 
 <br><br>
 
 ## Disclaimer
-
 This application is the result of the development of the Kelas IoT Workshop. I do not deny that I still use third-party services in this work, including: libraries, frameworks, and so on.
 
 <br><br>
 
 ## LICENSE
-
 MIT License - Copyright © 2024 - Devan C. M. Wijaya, S.Kom
 
 Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:

@@ -10,7 +10,6 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <br>
 
 ## Kebutuhan Proyek
-
 | Bagian | Deskripsi |
 | --- | --- |
 | Skema | Virtual |
@@ -27,9 +26,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <br><br>
 
 ## Unduh & Instal
-
 1. Visual Studio Code
-
    <table><tr><td width="810">
 
    ```
@@ -39,7 +36,6 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    </td></tr></table><br>
 
 2. NodeJS
-
    <table><tr><td width="810">
 
    ```
@@ -49,21 +45,10 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    </td></tr></table><br>
 
 3. MQTTX
-
    <table><tr><td width="810">
 
    ```
    https://mqttx.app/downloads
-   ```
-
-   </td></tr></table><br>
-
-4. Font-Awesome
-
-   <table><tr><td width="810">
-
-   ```
-   https://fontawesome.com/download
    ```
 
    </td></tr></table>
@@ -83,78 +68,134 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <br><br>
 
 ## Memulai
-
-1. Unduh dan ekstrak repositori ini.<br><br>
-
-2. Buka direktori `Web`, lalu buka `CMD` di dalam direktori tersebut.<br><br>
-
-   • Pertama, jika tidak ada kesalahan yang terjadi maka lewati saja langkah ini, tetapi jika sebaliknya, silakan salin perintah berikut:
-
-      <table><tr><td width="810">
-
+1. Buka ``` Terminal ```, lalu buat ``` package.json ``` di dalam direktori ``` dashboard-iot ```, dengan cara berikut:<br>
+   <table><tr><td width="810">
+      
    ```bash
-   npm install
+   npm init -y
    ```
-
-      </td></tr></table><br>
-
-   • Kedua, untuk menjalankan server dengan penyegaran berulang kali secara otomatis dapat dilakukan dengan perintah:
-
-      <table><tr><td width="810">
-
+   
+   </td></tr></table>
+   <br>
+2. Unduh dan ekstrak repositori ini.<br><br>
+3. Salin direktori: ``` public ``` dan ``` views ```.<br><br>
+4. Salin berkas: ``` server.js ```.<br><br>
+5. Tempel dan Timpa ke dalam direktori ``` dashboard-iot ```.<br><br>
+6. Buka ``` Terminal ``` di dalam direktori tersebut.<br><br>
+7. Instal ``` express ``` untuk membuat server backend:<br>
+   <table><tr><td width="810">
+      
    ```bash
-   nodemon server.js
+   npm install express
    ```
-
-      </td></tr></table><br>
-
-3. Buka `Peramban` anda, lalu ketik -> `localhost:3000` atau sesuaikan dengan yang ada di `CMD` anda.<br><br>
-
-4. Isi form Topic dan Data terlebih dahulu, misalnya: `kelasiot/pot` | `4095` -> kemudian klik `Publish`, maka hasilnya akan tertampil.<br><br>
-5. Port dan Topic Subscribe ini dapat diubah sesuai keinginan pengguna. Pengaturan ini terdapat dalam file bernama `server.js`.<br><br>
-
-6. Bersenang-senang dan nikmatilah [Selesai].
+   
+   </td></tr></table>
+   <br>
+8. Instal ``` mqtt ``` untuk komunikasi data IoT:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install mqtt
+    ```
+   
+    </td></tr></table>
+    <br>
+9. Instal ``` mqttjs ``` untuk menghubungkan web dan Node.js ke broker MQTT secara real-time:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install mqttjs
+    ```
+   
+    </td></tr></table>
+    <br>
+10. Instal ``` ejs ``` untuk membuat halaman web dengan konten dinamis:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install ejs
+    ```
+   
+    </td></tr></table>
+    <br>
+11. Instal ``` bootstrap ``` untuk mengatur tampilan (layout):<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install bootstrap
+    ```
+   
+    </td></tr></table>
+    <br>
+12. Instal ``` fontawesome ``` untuk ikon:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install @fortawesome/fontawesome-free
+    ```
+   
+    </td></tr></table>
+    <br>
+13. Buka ``` package.json ```, lalu ubah bagian ``` scripts ``` menjadi seperti ini:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    ```
+   
+    </td></tr></table>
+    <br>
+14. Instal ``` nodemon ``` untuk me-restart server secara otomatis:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install --save-dev nodemon
+    ```
+   
+    </td></tr></table>
+    <br>
+15. Untuk menjalankan web, ketikan perintah:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm run dev
+    ```
+   
+    </td></tr></table>
+    <br>
+16. Buka peramban anda, lalu ketik -> ``` http://localhost:3000/ ```.<br><br>
+17. Isi form Topic dan Data terlebih dahulu, misalnya: `kelasiot/pot` | `4095` -> kemudian klik `Publish`, maka hasilnya akan tertampil.<br><br>
+18. Port dan Topic Subscribe ini dapat diubah sesuai keinginan pengguna. Pengaturan ini terdapat dalam file bernama `server.js`.<br><br>
+19. Silakan akses fitur-fiturnya dan nikmatilah [Selesai].
 
 <br><br>
 
 ## Simulasi Dengan MQTTX
-
 `MQTTX Web` menyediakan 2 protokol komunikasi, yaitu `WebSocket (WS)` dan `WebSocket Secure (WSS)`. Selain itu juga ada `MQTTX Desktop`, yang secara pilihan lebih lengkap.<br><br>
-
 1. Jika anda menggunakan `MQTTX Web`, pastikan untuk memilih protokol `WSS` agar aman.<br><br>
-
 2. Jika anda menggunakan `MQTTX Desktop`, jangan lupa untuk mengunduh aplikasinya. Lalu, jika sudah diunduh, bukalah aplikasi tersebut di laptop atau komputer anda.<br><br>
-
 3. Klik `+ New Connection` -> lalu beri nama koneksi sesuai dengan keinginan anda -> lalu klik `Connect`.<br><br>
-
 4. Buat topic baru dengan nama `kelasiot/pot`.<br><br>
-
 5. Kemudian untuk pengaturan topic bisa anda sesuaikan seperti yang terlihat di bawah ini:
-
    • Format Payload to Publish by : &nbsp; `Plaintext`.
-
    • Qos : &nbsp; `0`.
-
    • Beri tanda centang pada `Retain`.<br><br>
-
 6. Publish data.<br><br>
-
 7. Setelah itu, silakan klik `+ New Subscription` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: `kelasiot/#`.<br><br>
-
 8. Tunggu hingga hasil subscribenya tertampil.<br><br>
-
 9. Bersenang-senang dan nikmatilah [Selesai].
 
 <br><br>
 
 ## Simulasi Dengan Wokwi
-
 Tautan untuk mensimulasikan : <strong><a href="https://wokwi.com/projects/413253569138415617" target="_blank">Klik Disini</a></strong>
 
 <br><br>
 
 ## Sorotan
-
 <table>
 <tr>
 <th width="420">Tampilan Dashboard</th>
@@ -179,19 +220,16 @@ Tautan untuk mensimulasikan : <strong><a href="https://wokwi.com/projects/413253
 <br><br>
 
 ## Apresiasi
-
 Jika karya ini bermanfaat bagi anda, maka dukunglah karya ini sebagai bentuk apresiasi kepada penulis dengan mengklik tombol `⭐Bintang` di bagian atas repositori.
 
 <br><br>
 
 ## Penafian
-
 Aplikasi ini merupakan hasil pengembangan dari Workshop Kelas IoT. Saya tidak memungkiri bahwa saya masih menggunakan layanan pihak ketiga dalam pengerjaan ini, antara lain: library, framework, dan lain sebagainya.
 
 <br><br>
 
 ## LISENSI
-
 LISENSI MIT - Hak Cipta © 2024 - Devan C. M. Wijaya, S.Kom
 
 Dengan ini diberikan izin tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk menggunakannya tanpa batasan, termasuk namun tidak terbatas pada hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, mempublikasikan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak ini, dan mengizinkan orang yang menerima Perangkat Lunak ini untuk dilengkapi dengan persyaratan berikut:
