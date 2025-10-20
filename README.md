@@ -179,10 +179,12 @@ This project has high resource efficiency and performance, including real-time d
 2. If you are using `MQTTX Desktop`, don't forget to download the app. Then, once downloaded, open that application on your laptop or computer.<br><br>
 3. Click `+ New Connection` -> then name the connection as you want -> then click `Connect`.<br><br>
 4. Create a new topic with the name `kelasiot/pot`.<br><br>
-5. Then for topic settings you can customize as seen below:
-   • Format Payload to Publish by : &nbsp; `Plaintext`.
-   • Qos : &nbsp; `0`.
-   • Put a check mark on `Retain`.<br><br>
+5. Then for topic settings you can customize as seen below:<br><br>
+   <table><tr><td width="810">
+   • Format Payload to Publish by : &nbsp; <strong>`Plaintext`</strong>.<br><br>
+   • Qos : &nbsp; <strong>`0`</strong>.<br><br>
+   • Put a check mark on <strong>`Retain`</strong>.
+   </td></tr></table><br>
 6. Publish data.<br><br>
 7. After that, please click `+ New Subscription` -> then list the topics you want to subscribe, for example: `kelasiot/#`.<br><br>
 8. Wait for the subscription results to be displayed.<br><br>
