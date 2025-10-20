@@ -179,10 +179,12 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 2. Jika anda menggunakan `MQTTX Desktop`, jangan lupa untuk mengunduh aplikasinya. Lalu, jika sudah diunduh, bukalah aplikasi tersebut di laptop atau komputer anda.<br><br>
 3. Klik `+ New Connection` -> lalu beri nama koneksi sesuai dengan keinginan anda -> lalu klik `Connect`.<br><br>
 4. Buat topic baru dengan nama `kelasiot/pot`.<br><br>
-5. Kemudian untuk pengaturan topic bisa anda sesuaikan seperti yang terlihat di bawah ini:
-   • Format Payload to Publish by : &nbsp; `Plaintext`.
-   • Qos : &nbsp; `0`.
-   • Beri tanda centang pada `Retain`.<br><br>
+5. Kemudian untuk pengaturan topic bisa anda sesuaikan seperti yang terlihat di bawah ini:<br><br>
+   <table><tr><td width="810">
+   • Format Payload to Publish by : &nbsp; <strong>`Plaintext`</strong>.<br><br>
+   • Qos : &nbsp; <strong>`0`</strong>.<br><br>
+   • Beri tanda centang pada <strong>`Retain`</strong>.
+   </td></tr></table><br>
 6. Publish data.<br><br>
 7. Setelah itu, silakan klik `+ New Subscription` -> lalu cantumkan topic yang ingin anda subscribe, contohnya: `kelasiot/#`.<br><br>
 8. Tunggu hingga hasil subscribenya tertampil.<br><br>
