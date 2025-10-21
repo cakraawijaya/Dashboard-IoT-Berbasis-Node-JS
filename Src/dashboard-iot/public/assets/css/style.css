@@ -85,6 +85,14 @@ main {
   box-sizing: border-box;
 }
 
+label span, .publish-btn > span {
+  font-size: 17px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
 .card-body {
   display: flex;
   flex-direction: column;
@@ -95,18 +103,31 @@ main {
   align-self: flex-end;
 }
 
-.btn-outline-light:hover span {
+input::placeholder {
+  font-size: 15px;
+}
+
+.publish-btn {
+  margin-top: 20px;
+  outline: 1px solid #fff;
+}
+
+.publish-btn > span i {
+  font-size: 14px;
+}
+
+.publish-btn:hover span {
   color: #3f00c6 !important;
+}
+
+.dataResult {
+  height: 305px;
+  font-size: 100px;
+  text-align: center;
 }
 
 footer {
   background-image: linear-gradient(170deg, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6, #008ca8, #3f00c6);
-}
-
-.dataResult {
-  height: 190px; 
-  font-size: 100px;
-  text-align: center;
 }
 
 .copyright,
@@ -128,6 +149,13 @@ footer {
   cursor: pointer;
 }
 
+@media (min-width: 1025px) {
+  .d-grid {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   nav .container-fluid {
     justify-content: flex-start;
@@ -142,25 +170,80 @@ footer {
   }
   
   main {
-    padding: 2rem;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  .container.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .card {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    padding: 2rem;
+    box-sizing: border-box;
+    height: 80vh;
+  }
+
+  .card-body {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .card-body form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .card-body input,
+  .card-body textarea,
+  .card-body .form-control {
+    width: 100%;
+  }
+
+  .publish-btn {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    height: 60px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .container.main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+  .card-result {
     width: 100%;
   }
 
-  .card {
-    padding: 1.75rem 2rem;
-    border-radius: 16px;
-    box-sizing: border-box;
+  .dataResult {
+    width: 100%;
+    min-height: 375px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -196,6 +279,61 @@ footer {
   .header > span {
     font-size: 20px;
   }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+    min-height: 500px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  input::placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .card-result {
+    width: 100%;
+  }
+
+  .dataResult {
+    height: 310px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+  }
+
+  label, input, button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  footer {
+    padding: 0 1rem;
+  }
+
+  .copyright {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -214,11 +352,11 @@ footer {
   }
 
   .header i {
-    font-size: 28px;
+    font-size: 40px;
   }
 
   .header > span {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   main {
@@ -238,12 +376,44 @@ footer {
     min-height: 300px;
   }
 
+  label span, .publish-btn > span {
+    font-size: 16px;
+  }
+
   .card-body {
-    gap: 0.75rem;
+    text-align: left;
+    padding: 0;
+  }
+
+  .card-body form {
+    width: 100% !important;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+  }
+
+  .publish-btn {
+    margin-top: 20px;
+    height: 50px;
+  }
+
+  .publish-btn > span i {
+    font-size: 13px;
   }
 
   .dataResult {
+    height: 180px;
     font-size: 80px;
-    padding: 2rem 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  footer {
+    padding: 0 1rem;
+  }
+
+  .copyright {
+    font-size: 12px;
   }
 }

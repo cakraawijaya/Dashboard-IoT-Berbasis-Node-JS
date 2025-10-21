@@ -6,21 +6,21 @@
     <div class="card">
       <div class="card-body">
         <form id="publishForm">
-          <div class="input-group mb-3">
-            <label class="input-group py-2 d-inline-block">
+          <div class="card-input mb-5">
+            <label class="input-group pb-2 d-inline-block">
               <span><i class="fa-solid fa-circle-info me-1"></i>Topic :</span>
             </label>
-            <input class="form-control pb-4" type="text" id="topic" placeholder="Topic">
+            <input class="form-control py-4" type="text" id="topic" placeholder="Topic">
           </div>
-          <div class="input-group mb-3">
-            <label class="input-group py-2 d-inline-block">
+          <div class="card-input mb-3">
+            <label class="input-group pb-2 d-inline-block">
               <span><i class="fa-solid fa-comments me-1"></i>Data :</span>
             </label>
-            <input class="form-control pb-4" type="text" id="message" placeholder="Message">
+            <input class="form-control py-4" type="text" id="message" placeholder="Message">
           </div>
-          <div class="d-grid justify-content-md-end">
-            <button type="submit" class="btn btn-outline-light btn-md text-right">
-              <span><i class="fa-solid fa-paper-plane me-2"></i>Publish</span>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-outline-light btn-md text-right publish-btn">
+              <span><i class="fa-solid fa-paper-plane me-1"></i>Publish</span>
             </button>
           </div>
         </form>
@@ -29,11 +29,11 @@
 
     <div class="card">
       <div class="card-body">
-        <div class="input-group mb-3">
-          <label class="input-group py-2 d-inline-block">
+        <div class="card-result">
+          <label class="d-inline-block pb-2">
             <span><i class="fa-solid fa-lightbulb me-1"></i>Result :</span>
           </label>
-          <p class="form-control pb-4 dataResult" id="data"></p>
+          <p class="form-control dataResult" id="data"></p>
         </div>
       </div>
     </div>
