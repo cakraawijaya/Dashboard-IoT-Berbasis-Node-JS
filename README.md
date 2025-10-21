@@ -205,7 +205,7 @@ Link to simulate : <strong><a href="https://wokwi.com/projects/41325356913841561
 </tr>
 <tr>
 <td><img src="Documentation/Experiment/Web Dashboard.jpg" alt="dashboard"></td>
-<td><img src="Documentation/Experiment/Nodemon Server.js.jpg" alt="server"></td>
+<td><img src="Documentation/Experiment/Running the Server.jpg" alt="server"></td>
 </tr>
 </table>
 <table>
