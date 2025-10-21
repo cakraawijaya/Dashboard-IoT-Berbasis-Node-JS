@@ -30,11 +30,11 @@ nav .container-fluid {
 }
 
 .header i {
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .header > span {
-  font-size: 22px;
+  font-size: 25px;
 }
 
 nav {
@@ -109,21 +109,45 @@ input::placeholder {
 
 .publish-btn {
   margin-top: 20px;
-  outline: 1px solid #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #fff;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  height: 50px;
 }
 
-.publish-btn > span i {
-  font-size: 14px;
+.publish-btn:hover {
+  background: linear-gradient(135deg, #3f00c6, #00e0ff);
 }
 
-.publish-btn:hover span {
-  color: #3f00c6 !important;
+.publish-btn:active {
+  transform: scale(0.98);
 }
 
 .dataResult {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
   height: 305px;
-  font-size: 100px;
+  width: 100%;
+  background-color: white;
+  border-radius: 12px;
+  font-size: 100px !important;
+  font-weight: bold;
   text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
@@ -162,70 +186,63 @@ footer {
   }
 
   .header i {
-    font-size: 22px;
+    font-size: 28px;
   }
 
   .header > span {
-    font-size: 20px;
+    font-size: 24px;
   }
   
   main {
-    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 2rem;
     box-sizing: border-box;
   }
 
   .container.main-content {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    justify-content: flex-start;
+    gap: 2.5rem;   
     width: 100%;
-    max-width: 1000px;
     margin: 0 auto;
   }
 
   .card {
-    flex: 1 1 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     border-radius: 16px;
     padding: 2rem;
     box-sizing: border-box;
-    height: 80vh;
+    height: auto;
+    margin: 0 auto;
   }
 
   .card-body {
     width: 100%;
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
   }
 
   .card-body form {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
   }
 
-  .card-body input,
-  .card-body textarea,
   .card-body .form-control {
     width: 100%;
   }
 
   .publish-btn {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     font-size: 1.1rem;
     height: 60px;
     width: 100%;
@@ -318,6 +335,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 60px !important;
     background: rgba(255,255,255,0.1);
     border-radius: 12px;
   }
@@ -404,7 +422,7 @@ footer {
 
   .dataResult {
     height: 180px;
-    font-size: 80px;
+    font-size: 80px !important;
     padding: 0;
     margin: 0;
   }
