@@ -1,0 +1,8 @@
+builder: railpack
+root: Src/dashboard-iot
+startCommand: "npm start"
+watch:
+  - /Src/dashboard-iot/**
+waitForCI: true
+env:
+  NODE_ENV: production
