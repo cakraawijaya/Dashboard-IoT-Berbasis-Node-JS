@@ -138,7 +138,7 @@ input::placeholder {
   display: flex !important;
   justify-content: center;
   align-items: center;
-  height: 305px;
+  height: 325px;
   width: 100%;
   background-color: white;
   border-radius: 12px;
@@ -174,6 +174,10 @@ footer {
 }
 
 @media (min-width: 1025px) {
+  .container.main-content {
+    height: 600px;
+  }
+
   .d-grid {
     display: flex;
     justify-content: flex-end;
@@ -196,6 +200,8 @@ footer {
   main {
     display: flex;
     justify-content: center;
+    align-items: stretch;
+    min-height: 100vh;
     padding: 2rem;
     box-sizing: border-box;
   }
@@ -203,64 +209,76 @@ footer {
   .container.main-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 2.5rem;   
+    justify-content: space-between;
+    align-items: stretch;
     width: 100%;
-    margin: 0 auto;
+    height: 100%;
+    gap: 2rem;
+    box-sizing: border-box;
   }
 
   .card {
-    width: 100%;
+    flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     text-align: left;
     border-radius: 16px;
-    padding: 2rem;
+    padding: 1.5rem;
     box-sizing: border-box;
-    height: auto;
-    margin: 0 auto;
+    color: white;
   }
 
   .card-body {
+    flex: 1;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    gap: 1rem;
+    box-sizing: border-box;
   }
 
-  .card-body form {
+  label {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 0.5rem;
   }
 
-  .card-body .form-control {
+  .card-body input {
     width: 100%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    box-sizing: border-box;
   }
 
   .publish-btn {
-    margin-top: 2.5rem;
-    font-size: 1.1rem;
-    height: 60px;
+    margin-top: 3.5rem;
+    font-size: 1rem;
+    height: 55px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .card-result {
-    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
   }
 
   .dataResult {
     width: 100%;
-    min-height: 375px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    min-height: 360px;
+    background: white;
+    color: black;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 80px !important;
+    box-sizing: border-box;
+    padding: 0.5rem;
   }
 }
 
@@ -329,7 +347,7 @@ footer {
   }
 
   .dataResult {
-    height: 310px;
+    height: 320px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
