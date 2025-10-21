@@ -3,7 +3,8 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-const client = mqtt.connect('mqtt://broker.emqx.io');
+const mqttBroker = process.env.MQTT_BROKER || 'mqtt://broker.emqx.io';
+const client = mqtt.connect(mqttBroker);
 const port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
