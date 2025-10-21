@@ -412,7 +412,8 @@ footer {
     min-height: 300px;
   }
 
-  label span, .publish-btn > span {
+  label span,
+  .publish-btn > span {
     font-size: 16px;
   }
 
@@ -423,6 +424,16 @@ footer {
 
   .card-body form {
     width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  label, input, button {
+    width: 100% !important;
+    max-width: none !important;
+    box-sizing: border-box;
+    display: block;
   }
 
   input::placeholder {
@@ -432,6 +443,7 @@ footer {
   .publish-btn {
     margin-top: 20px;
     height: 50px;
+    display: block !important;
   }
 
   .publish-btn > span i {
