@@ -193,7 +193,7 @@ This project has high resource efficiency and performance, including real-time d
 
 <br><br>
 
-## Deploy di Railway
+## Deploy on Railway
 1. Open the Railway platform:&nbsp;&nbsp;<strong><a href="https://railway.com/">Click Here</a></strong> &nbsp;, then log in with GitHub.<br><br>
 2. Allow Railway to access the repository.<br><br>
 3. Upload the project to GitHub.<br><br>
