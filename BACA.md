@@ -193,6 +193,39 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 
 <br><br>
 
+## Deploy di Railway
+1. Buka platform Railway:&nbsp;&nbsp;<strong><a href="https://railway.com/">Klik Disini</a></strong> &nbsp;, lalu Login dengan Github.<br><br>
+2. Izinkan Railway untuk mengakses repositori.<br><br>
+3. Upload proyek ke GitHub.<br><br>
+4. Masuk ke dashboard Railway:&nbsp;&nbsp;<strong><a href="https://railway.com/dashboard">Klik Disini</a></strong><br><br>
+5. Klik ``` Add New Project ```.<br><br>
+6. Pilih repositori GitHub mana yang diinginkan.<br><br>
+7. Pilih menu ``` Settings ``` -> Ubah ``` Name ``` dan ``` Description ``` sesuai dengan kebutuhan -> Klik tombol ``` Update ```.<br><br>
+8. Pilih menu ``` Architecture ``` -> Klik ``` Project ```.<br><br>
+9. Klik ``` Variables ``` di bagian Project -> Klik tombol ``` New Variable ```, lalu isi persis seperti ini:<br>
+   - Placeholder: ``` VARIABLE_NAME ```
+       <table><tr><td width="810">
+         
+       ```bash
+       MQTT_BROKER
+       ```
+      
+       </td></tr></table>
+       
+   - Placeholder: ``` VALUE or ${{REF}} ```
+       <table><tr><td width="810">
+         
+       ```bash
+       mqtt://broker.emqx.io
+       ```
+      
+       </td></tr></table>
+       <br>
+10. Klik ``` Settings ``` di bagian Project -> Cari ``` Public Networking ``` -> Klik tombol ``` Generate Domain ```.<br><br>
+11. Untuk mendapatkan domain yang bersih:&nbsp;&nbsp;Klik ``` Edit ``` -> Klik tombol ``` Update ``` (*Opsional).
+
+<br><br>
+
 ## Simulasi Dengan Wokwi
 Tautan untuk mensimulasikan : <strong><a href="https://wokwi.com/projects/413253569138415617" target="_blank">Klik Disini</a></strong>
 
