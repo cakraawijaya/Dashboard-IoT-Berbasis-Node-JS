@@ -61,7 +61,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <th width="840">Infrastruktur</th>
 </tr>
 <tr>
-<td><img src="Documentation/Diagram/Infrastructure.jpg" alt="infrastructure"></td>
+<td><img src="documentation/diagram/Infrastructure.jpg" alt="infrastructure"></td>
 </tr>
 </table>
 
@@ -204,8 +204,8 @@ Tautan untuk mensimulasikan : <strong><a href="https://wokwi.com/projects/413253
 <th width="420">Menjalankan Server</th>
 </tr>
 <tr>
-<td><img src="Documentation/Experiment/Web Dashboard.jpg" alt="dashboard"></td>
-<td><img src="Documentation/Experiment/Running the Server.jpg" alt="server"></td>
+<td><img src="documentation/experiment/Web Dashboard.jpg" alt="dashboard"></td>
+<td><img src="documentation/experiment/Running the Server.jpg" alt="server"></td>
 </tr>
 </table>
 <table>
@@ -214,8 +214,8 @@ Tautan untuk mensimulasikan : <strong><a href="https://wokwi.com/projects/413253
 <th width="420">Simulasi Wokwi</th>
 </tr>
 <tr>
-<td><img src="Documentation/Experiment/MQTTX Simulation.jpg" alt="mqttx"></td>
-<td><img src="Documentation/Experiment/Wokwi Simulation.jpg" alt="wokwi"></td>
+<td><img src="documentation/experiment/MQTTX Simulation.jpg" alt="mqttx"></td>
+<td><img src="documentation/experiment/Wokwi Simulation.jpg" alt="wokwi"></td>
 </tr>
 </table>
 

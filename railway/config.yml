@@ -1,5 +1,0 @@
-builder: railpack
-root: Src/dashboard-iot
-startCommand: "npm start"
-watch:
-  - /Src/dashboard-iot/**

@@ -61,7 +61,7 @@ This project has high resource efficiency and performance, including real-time d
 <th width="840">Infrastructure</th>
 </tr>
 <tr>
-<td><img src="Documentation/Diagram/Infrastructure.jpg" alt="infrastructure"></td>
+<td><img src="documentation/diagram/Infrastructure.jpg" alt="infrastructure"></td>
 </tr>
 </table>
 
@@ -204,8 +204,8 @@ Link to simulate : <strong><a href="https://wokwi.com/projects/41325356913841561
 <th width="420">Running the Server</th>
 </tr>
 <tr>
-<td><img src="Documentation/Experiment/Web Dashboard.jpg" alt="dashboard"></td>
-<td><img src="Documentation/Experiment/Running the Server.jpg" alt="server"></td>
+<td><img src="documentation/experiment/Web Dashboard.jpg" alt="dashboard"></td>
+<td><img src="documentation/experiment/Running the Server.jpg" alt="server"></td>
 </tr>
 </table>
 <table>
@@ -214,8 +214,8 @@ Link to simulate : <strong><a href="https://wokwi.com/projects/41325356913841561
 <th width="420">Wokwi Simulation</th>
 </tr>
 <tr>
-<td><img src="Documentation/Experiment/MQTTX Simulation.jpg" alt="mqttx"></td>
-<td><img src="Documentation/Experiment/Wokwi Simulation.jpg" alt="wokwi"></td>
+<td><img src="documentation/experiment/MQTTX Simulation.jpg" alt="mqttx"></td>
+<td><img src="documentation/experiment/Wokwi Simulation.jpg" alt="wokwi"></td>
 </tr>
 </table>
 
