@@ -68,7 +68,13 @@ This project has high resource efficiency and performance, including real-time d
 <br><br>
 
 ## Get Started
-1. Open ``` Terminal ```, Then create a ``` package.json ``` file in the ``` dashboard-iot ``` directory using the following steps:<br>
+1. Create a new directory named ``` dashboard-iot ```.<br><br>
+2. Download and extract this repository.<br><br>
+3. Copy the directories: ``` public ``` and ``` views ```.<br><br>
+4. Copy the file: ``` server.js ```.<br><br>
+5. Paste and Replace into the ``` dashboard-iot ``` directory.<br><br>
+6. Open ``` Terminal ``` inside that directory.<br><br>
+7. Create a ``` package.json ``` file by typing the command:<br>
    <table><tr><td width="810">
    
    ```bash
@@ -77,12 +83,7 @@ This project has high resource efficiency and performance, including real-time d
    
    </td></tr></table>
    <br>
-2. Download and extract this repository.<br><br>
-3. Copy the directories: ``` public ``` and ``` views ```.<br><br>
-4. Copy the file: ``` server.js ```.<br><br>
-5. Paste and Replace into the ``` dashboard-iot ``` directory.<br><br>
-6. Open ``` Terminal ``` inside that directory.<br><br>
-7. Install ``` express ``` to make a backend server:<br>
+8. Install ``` express ``` to make a backend server:<br>
    <table><tr><td width="810">
       
    ```bash
@@ -91,7 +92,7 @@ This project has high resource efficiency and performance, including real-time d
    
    </td></tr></table>
    <br>
-8. Install ``` mqtt ``` for IoT data communication:<br>
+9. Install ``` mqtt ``` for IoT data communication:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -100,7 +101,7 @@ This project has high resource efficiency and performance, including real-time d
    
     </td></tr></table>
     <br>
-9. Install ``` mqttjs ``` to connect the web and Node.js to the MQTT broker in real time:<br>
+10. Install ``` mqttjs ``` to connect the web and Node.js to the MQTT broker in real time:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -109,7 +110,7 @@ This project has high resource efficiency and performance, including real-time d
    
     </td></tr></table>
     <br>
-10. Install ``` ejs ``` to create web pages with dynamic content:<br>
+11. Install ``` ejs ``` to create web pages with dynamic content:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -118,7 +119,7 @@ This project has high resource efficiency and performance, including real-time d
    
     </td></tr></table>
     <br>
-11. Install ``` bootstrap ``` to manage the appearance (layout):<br>
+12. Install ``` bootstrap ``` to manage the appearance (layout):<br>
     <table><tr><td width="810">
       
     ```bash
@@ -127,7 +128,7 @@ This project has high resource efficiency and performance, including real-time d
    
     </td></tr></table>
     <br>
-12. Install ``` fontawesome ``` for icons:<br>
+13. Install ``` fontawesome ``` for icons:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -136,7 +137,7 @@ This project has high resource efficiency and performance, including real-time d
    
     </td></tr></table>
     <br>
-13. Open ``` package.json ```, then change the ``` scripts ``` section to look like this:<br>
+14. Open ``` package.json ```, then change the ``` scripts ``` section to look like this:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -148,7 +149,7 @@ This project has high resource efficiency and performance, including real-time d
    
     </td></tr></table>
     <br>
-14. Install ``` nodemon ``` to restart the server automatically:<br>
+15. Install ``` nodemon ``` to restart the server automatically:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -157,7 +158,7 @@ This project has high resource efficiency and performance, including real-time d
    
     </td></tr></table>
     <br>
-15. To run the web, type the command:<br>
+16. To run the web, type the command:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -166,10 +167,10 @@ This project has high resource efficiency and performance, including real-time d
    
     </td></tr></table>
     <br>
-16. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
-17. Fill in the Topic and Data form first, for example: `kelasiot/pot` | `4095` -> then click `Publish`, then the result will be displayed.<br><br>
-18. This port and Topic Subscribe can be changed according to the user's preference. These settings are contained in a file called `server.js`.<br><br>
-19. Please access the features and enjoy [Done].
+17. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
+18. Fill in the Topic and Data form first, for example: `kelasiot/pot` | `4095` -> then click `Publish`, then the result will be displayed.<br><br>
+19. This port and Topic Subscribe can be changed according to the user's preference. These settings are contained in a file called `server.js`.<br><br>
+20. Please access the features and enjoy [Done].
 
 <br><br>
 

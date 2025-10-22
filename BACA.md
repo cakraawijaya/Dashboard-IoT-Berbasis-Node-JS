@@ -68,7 +68,13 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
 <br><br>
 
 ## Memulai
-1. Buka ``` Terminal ```, lalu buat ``` package.json ``` di dalam direktori ``` dashboard-iot ```, dengan cara berikut:<br>
+1. Buat direktori baru dengan nama ``` dashboard-iot ```.<br><br>
+2. Unduh dan ekstrak repositori ini.<br><br>
+3. Salin direktori: ``` public ``` dan ``` views ```.<br><br>
+4. Salin berkas: ``` server.js ```.<br><br>
+5. Tempel dan Timpa ke dalam direktori ``` dashboard-iot ```.<br><br>
+6. Buka ``` Terminal ``` di dalam direktori tersebut.<br><br>
+7. Buat berkas ``` package.json ``` dengan mengetik perintah:<br>
    <table><tr><td width="810">
       
    ```bash
@@ -77,12 +83,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
    </td></tr></table>
    <br>
-2. Unduh dan ekstrak repositori ini.<br><br>
-3. Salin direktori: ``` public ``` dan ``` views ```.<br><br>
-4. Salin berkas: ``` server.js ```.<br><br>
-5. Tempel dan Timpa ke dalam direktori ``` dashboard-iot ```.<br><br>
-6. Buka ``` Terminal ``` di dalam direktori tersebut.<br><br>
-7. Instal ``` express ``` untuk membuat server backend:<br>
+8. Instal ``` express ``` untuk membuat server backend:<br>
    <table><tr><td width="810">
       
    ```bash
@@ -91,7 +92,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
    </td></tr></table>
    <br>
-8. Instal ``` mqtt ``` untuk komunikasi data IoT:<br>
+9. Instal ``` mqtt ``` untuk komunikasi data IoT:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -100,7 +101,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
     </td></tr></table>
     <br>
-9. Instal ``` mqttjs ``` untuk menghubungkan web dan Node.js ke broker MQTT secara real-time:<br>
+10. Instal ``` mqttjs ``` untuk menghubungkan web dan Node.js ke broker MQTT secara real-time:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -109,7 +110,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
     </td></tr></table>
     <br>
-10. Instal ``` ejs ``` untuk membuat halaman web dengan konten dinamis:<br>
+11. Instal ``` ejs ``` untuk membuat halaman web dengan konten dinamis:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -118,7 +119,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
     </td></tr></table>
     <br>
-11. Instal ``` bootstrap ``` untuk mengatur tampilan (layout):<br>
+12. Instal ``` bootstrap ``` untuk mengatur tampilan (layout):<br>
     <table><tr><td width="810">
       
     ```bash
@@ -127,7 +128,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
     </td></tr></table>
     <br>
-12. Instal ``` fontawesome ``` untuk ikon:<br>
+13. Instal ``` fontawesome ``` untuk ikon:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -136,7 +137,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
     </td></tr></table>
     <br>
-13. Buka ``` package.json ```, lalu ubah bagian ``` scripts ``` menjadi seperti ini:<br>
+14. Buka ``` package.json ```, lalu ubah bagian ``` scripts ``` menjadi seperti ini:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -148,7 +149,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
     </td></tr></table>
     <br>
-14. Instal ``` nodemon ``` untuk me-restart server secara otomatis:<br>
+15. Instal ``` nodemon ``` untuk me-restart server secara otomatis:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -157,7 +158,7 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
     </td></tr></table>
     <br>
-15. Untuk menjalankan web, ketikan perintah:<br>
+16. Untuk menjalankan web, ketikan perintah:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -166,10 +167,10 @@ Proyek ini memiliki efisiensi sumber daya dan kinerja yang tinggi, termasuk pemr
    
     </td></tr></table>
     <br>
-16. Buka peramban anda, lalu ketik -> ``` http://localhost:3000/ ```.<br><br>
-17. Isi form Topic dan Data terlebih dahulu, misalnya: `kelasiot/pot` | `4095` -> kemudian klik `Publish`, maka hasilnya akan tertampil.<br><br>
-18. Port dan Topic Subscribe ini dapat diubah sesuai keinginan pengguna. Pengaturan ini terdapat dalam file bernama `server.js`.<br><br>
-19. Silakan akses fitur-fiturnya dan nikmatilah [Selesai].
+17. Buka peramban anda, lalu ketik -> ``` http://localhost:3000/ ```.<br><br>
+18. Isi form Topic dan Data terlebih dahulu, misalnya: `kelasiot/pot` | `4095` -> kemudian klik `Publish`, maka hasilnya akan tertampil.<br><br>
+19. Port dan Topic Subscribe ini dapat diubah sesuai keinginan pengguna. Pengaturan ini terdapat dalam file bernama `server.js`.<br><br>
+20. Silakan akses fitur-fiturnya dan nikmatilah [Selesai].
 
 <br><br>
 
